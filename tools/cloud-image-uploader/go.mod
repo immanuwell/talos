@@ -3,11 +3,11 @@ module github.com/siderolabs/talos/tools/cloud-image-uploader
 go 1.26.0
 
 require (
-	cloud.google.com/go/storage v1.62.1
+	cloud.google.com/go/storage v1.62.2
 	github.com/aws/aws-sdk-go-v2 v1.41.7
-	github.com/aws/aws-sdk-go-v2/config v1.32.17
-	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.18
-	github.com/aws/aws-sdk-go-v2/service/ec2 v1.300.0
+	github.com/aws/aws-sdk-go-v2/config v1.32.18
+	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.19
+	github.com/aws/aws-sdk-go-v2/service/ec2 v1.304.0
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.101.0
 	github.com/google/uuid v1.6.0
 	github.com/klauspost/compress v1.18.6
@@ -16,7 +16,7 @@ require (
 	github.com/siderolabs/go-retry v0.3.3
 	github.com/spf13/pflag v1.0.10
 	golang.org/x/sync v0.20.0
-	google.golang.org/api v0.278.0
+	google.golang.org/api v0.280.0
 )
 
 require (
@@ -31,7 +31,7 @@ require (
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.56.0 // indirect
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping v0.56.0 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.10 // indirect
-	github.com/aws/aws-sdk-go-v2/credentials v1.19.16 // indirect
+	github.com/aws/aws-sdk-go-v2/credentials v1.19.17 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.23 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.23 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.23 // indirect
@@ -42,7 +42,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.23 // indirect
 	github.com/aws/aws-sdk-go-v2/service/signin v1.0.11 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.30.17 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.21 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.36.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.42.1 // indirect
 	github.com/aws/smithy-go v1.25.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
@@ -67,15 +67,15 @@ require (
 	go.opentelemetry.io/otel/sdk v1.43.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v1.43.0 // indirect
 	go.opentelemetry.io/otel/trace v1.43.0 // indirect
-	golang.org/x/crypto v0.50.0 // indirect
-	golang.org/x/net v0.53.0 // indirect
+	golang.org/x/crypto v0.51.0 // indirect
+	golang.org/x/net v0.54.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
-	golang.org/x/sys v0.43.0 // indirect
-	golang.org/x/text v0.36.0 // indirect
+	golang.org/x/sys v0.44.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.15.0 // indirect
 	google.golang.org/genproto v0.0.0-20260504160031-60b97b32f348 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260504160031-60b97b32f348 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260504160031-60b97b32f348 // indirect
-	google.golang.org/grpc v1.81.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260511170946-3700d4141b60 // indirect
+	google.golang.org/grpc v1.81.1 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 )
